@@ -130,6 +130,8 @@ const payment=document.querySelector('.payment');
 const closeButton=document.querySelector('.close');
 const paymentbutton=document.querySelector('.payButton')
 
+const buy= document.querySelector('.buy');
+
 productButtton.addEventListener('click',()=>{
    payment.style.display='flex';
 });
@@ -140,6 +142,10 @@ closeButton.addEventListener('click',()=>{
 
 paymentbutton.addEventListener('click',()=>{
    payment.style.display='none'
-   alert('Your product will delevired in 7 Days')
-   
+   alert('Your product will delevired in 7 Days')  
+})
+
+buy.addEventListener('click',()=>{
+   payment.style.display='none'
+   alert('Your product will delevired in 7 Days')  
 })
