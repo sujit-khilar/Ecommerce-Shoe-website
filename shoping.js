@@ -62,6 +62,7 @@ const cards = document.querySelectorAll('.card');
             }
 
             totalElement.textContent = `Total amount: $${total.toFixed(2)}`; 
+            
         }
 
         function addItem(itemId) {
@@ -70,7 +71,6 @@ const cards = document.querySelectorAll('.card');
             }
             updateCart();
         }
-        
 
         function removeItem(itemId) {
             if (selectedItems[itemId]) {
